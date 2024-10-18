@@ -12,7 +12,7 @@ public class FaqView: UIView {
     private let collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewLayout())
     private var faqs: [FaqCell.Args]!
     
-    convenience init(faqs: [FaqCell.Args]) {
+    public convenience init(faqs: [FaqCell.Args]) {
         self.init(frame: .zero)
         self.faqs = faqs
         commonInıt()
@@ -28,7 +28,7 @@ public class FaqView: UIView {
 }
 
 
-extension FaqView: UICollectionViewDelegate & UICollectionViewDataSource {
+public extension FaqView: UICollectionViewDelegate & UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         faqs[indexPath.row].isOpened = !faqs[indexPath.row].isOpened
         collectionView.reloadItems(at: [indexPath])
