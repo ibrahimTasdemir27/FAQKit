@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class FaqView: UIView {
+public class FaqView: UIView, UICollectionViewDelegate, UICollectionViewDataSource {
     
     private let collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewLayout())
     private var faqs: [FaqCell.Args]!
@@ -28,7 +28,7 @@ public class FaqView: UIView {
 }
 
 
-public extension FaqView: UICollectionViewDelegate & UICollectionViewDataSource {
+public extension FaqView {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         faqs[indexPath.row].isOpened = !faqs[indexPath.row].isOpened
         collectionView.reloadItems(at: [indexPath])
