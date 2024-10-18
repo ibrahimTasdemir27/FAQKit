@@ -9,9 +9,9 @@ import UIKit
 import ViewStyleOptions
 import SnapKit
 
-final class FaqCell: UICollectionViewCell {
+public class FaqCell: UICollectionViewCell {
     
-    class Args: Hashable {
+    public class Args: Hashable {
         static func == (lhs: FaqCell.Args, rhs: FaqCell.Args) -> Bool {
             lhs.id == rhs.id
         }

@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class FaqView: UIView {
+public class FaqView: UIView {
     
     private let collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewLayout())
     private var faqs: [FaqCell.Args]!

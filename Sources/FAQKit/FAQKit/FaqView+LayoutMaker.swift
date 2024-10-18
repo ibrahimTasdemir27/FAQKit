@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension FaqView {
+public extension FaqView {
     struct LayoutMaker {
         func makeLayout() -> UICollectionViewCompositionalLayout {
             let configuration = UICollectionViewCompositionalLayoutConfiguration()
