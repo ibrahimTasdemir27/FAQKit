@@ -30,7 +30,7 @@ public class FaqCell: UICollectionViewCell {
             self.titleLabelSpecialStyles = titleLabelSpecialStyles
             self.descriptionSpecialStyles = descriptionSpecialStyles
         }
-        
+         
         
     } 
     
