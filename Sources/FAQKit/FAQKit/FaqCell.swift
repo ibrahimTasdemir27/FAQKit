@@ -76,7 +76,7 @@ public class FaqCell: UICollectionViewCell {
         chevron.setImage(chevronImage, for: .normal)
     }
     
-     
+      
 }
 
 private extension FaqCell {
