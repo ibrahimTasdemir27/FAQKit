@@ -10,7 +10,7 @@ import ViewStyleOptions
 import SnapKit
 
 public class FaqCell: UICollectionViewCell {
-    
+     
     public class Args {
         let title: String
         let description: String
