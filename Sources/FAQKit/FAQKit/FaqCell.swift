@@ -36,7 +36,7 @@ public class FaqCell: UICollectionViewCell {
     
     let stackView = UIStackView()
     let titleView = UIView(configs: .setRadius(12), .setBackground(.systemGray5))
-    let titleButton = UILabel(special: .setTextColor(.black), .setAligment(.left), .setFont(.systemFont(ofSize: 15, weight: .semibold)))
+    let titleButton = UILabel(special: .setTextColor(.black), .setAligment(.left), .set0Line, .setFont(.systemFont(ofSize: 15, weight: .semibold)))
     let descriptionContent = UIView()
     let descriptionTextView = UITextView(special: .setEditable(false), .setFont(.systemFont(ofSize: 15)))
     let chevron = UIButton(special: .setImage(UIImage(systemName: "chevron.right")?.withConfiguration(UIImage.SymbolConfiguration(pointSize: 14, weight: .medium))))
