@@ -1,0 +1,24 @@
+{
+  "originHash" : "9ed5a5461160c8dd0a5266e1e60190b9cf841da6216e3b4f32086a405637a713",
+  "pins" : [
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit",
+      "state" : {
+        "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
+        "version" : "5.7.1"
+      }
+    },
+    {
+      "identity" : "viewstyleoptions",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ibrahimTasdemir27/ViewStyleOptions",
+      "state" : {
+        "revision" : "c93be26bac9a6c61fd43778e7f815dd17de97e17",
+        "version" : "1.0.7"
+      }
+    }
+  ],
+  "version" : 3
+}
