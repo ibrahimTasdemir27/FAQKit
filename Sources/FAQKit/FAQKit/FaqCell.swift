@@ -59,9 +59,9 @@ public class FaqCell: UICollectionViewCell {
     
     func configure(for args: Args) {
         titleView.applyStyles(args.titleStackViewStyles)
-        titleButton.text = args.title
+        titleButton.text = args.title.localized
         titleButton.applyStyles(args.titleLabelSpecialStyles)
-        descriptionTextView.text = args.description
+        descriptionTextView.text = args.description.localized
         descriptionContent.isHidden = !args.isOpened
         let chevronImage: UIImage? = args.isOpened ? .init(systemName: "chevron.down") : .init(systemName: "chevron.right")
         chevron.setImage(chevronImage, for: .normal)
