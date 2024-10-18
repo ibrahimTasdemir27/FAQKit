@@ -28,7 +28,7 @@ public class FaqCell: UICollectionViewCell {
         let titleLabelSpecialStyles: [LabelViewStyleOptions]
         let descriptionSpecialStyles: [TextViewStyleOptions]
         
-        init(title: String, description: String, isOpened: Bool = false,
+        public init(title: String, description: String, isOpened: Bool = false,
              titleStackViewStyles: [ViewStyleOptions] = [],
              titleLabelSpecialStyles: [LabelViewStyleOptions] = [],
              descriptionSpecialStyles: [TextViewStyleOptions] = []) {
