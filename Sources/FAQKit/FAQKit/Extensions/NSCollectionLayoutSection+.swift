@@ -4,7 +4,7 @@
 //
 //  Created by İbrahim Taşdemir on 18.10.2024.
 //
-
+ 
 import UIKit
 
 public extension NSCollectionLayoutSection {
