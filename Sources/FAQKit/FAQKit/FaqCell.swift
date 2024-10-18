@@ -11,16 +11,7 @@ import SnapKit
 
 public class FaqCell: UICollectionViewCell {
     
-    public class Args: Hashable {
-        static func == (lhs: FaqCell.Args, rhs: FaqCell.Args) -> Bool {
-            lhs.id == rhs.id
-        }
-        
-        func hash(into hasher: inout Hasher) {
-            hasher.combine(id)
-        }
-        
-        let id = UUID()
+    public class Args {
         let title: String
         let description: String
         var isOpened: Bool
