@@ -41,7 +41,7 @@ public class FaqCell: UICollectionViewCell {
         }
         
         
-    }
+    } 
     
     let stackView = UIStackView()
     let titleView = UIView(configs: .setRadius(12), .setBackground(.systemGray5))
