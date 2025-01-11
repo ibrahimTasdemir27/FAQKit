@@ -13,8 +13,6 @@ let package = Package(
             targets: ["FAQKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/SnapKit/SnapKit", .upToNextMajor(from: "5.0.1")),
-        .package(url: "https://github.com/ibrahimTasdemir27/ViewStyleOptions", branch: "main"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
